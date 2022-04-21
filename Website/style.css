@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: #1f2123;
+}
+
+/* .wrapper{
+  display: flex;
+  flex-direction: column;
+} */
+/* Navigation Css */
+
+nav {
+  display: flex;
+}
+
+.logo {
+  margin: 0.2rem 2rem;
+  padding-left: 2rem;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1rem 2rem;
+  padding-top: 1rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #13d48f;
+  font-size: 18px;
+}
+
+/* Main content CSS */
+.containter {
+  height: 100vh;
+  display: flex;
+  margin: 2rem 5rem;
+}
+
+.main-text {
+  display: flex;
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  left: 32.6%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+button {
+  background-color: #13d48f;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  align-content: center;
+}
+.button {
+  font-weight: bold;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 45px;
+  display: inline-block;
+  font-size: 25px;
+  width: 180px;
+  height: 60px;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #13d48f;
+  color: #13d48f;
+  transition: 0.5s;
+}
+.cover {
+  position: absolute;
+  left: 55%;
+  top: 25%;
+  height: 658px;
+  width: 654px;
+  z-index: 1;
+}
+
+/* Circle */
+.circle {
+  position: absolute;
+  left: 78%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: linear-gradient(rgba(19, 212, 143, 0.5), rgba(41, 50, 65, 1));
+}
